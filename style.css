@@ -1,0 +1,121 @@
+body{
+width: 98%;
+margin: auto;
+}
+
+.day, .night{
+    display: flex;
+    justify-content: space-between;
+    height: 678px;
+width: 1280px;
+border-radius: 0px;
+    background: black;
+    margin: auto;
+}
+
+.night{
+    margin-bottom: 68px;
+    margin-top: 68px;
+}
+
+.nightLeft, .nightRight{
+    height: 550px;
+width: 550px;
+border-radius: 0px;
+background:#5841d8;
+margin: auto;
+}
+
+.dayLeft, .dayRight{
+    height: 550px;
+width: 550px;
+border-radius: 0px;
+background:white;
+margin: auto;
+}
+
+h2{
+    /* font-family: Karla; */
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 115px;
+    margin-bottom: 10px;
+}
+
+p{
+/* font-family: Inter; */
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 52px;
+color: ghostwhite;
+}
+
+button{
+    background: #41D8A3;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+width: 191px;
+height: 42px;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border: none;
+/* font-family: Inter; */
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 52px;
+margin-top: 51px;
+color:ghostwhite;
+}
+
+.border{
+    width: 446px;
+    margin: auto;
+    margin-top:35px;
+    border-bottom:2px solid grey ;
+}
+
+/* .blankN1, .blankN2{
+    background: #3E27BF;
+    border-radius: 6px;
+    width: 200px;
+    height: 39px;
+    margin: auto;
+} */
+#fillN1, #fillN2{
+    background: #3E27BF;
+    border-radius: 6px;
+    width: 200px;
+    height: 39px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+#fillD1, #fillD2{
+    background: #3E27BF;
+    border-radius: 6px;
+    width: 200px;
+    height: 39px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    margin:35px 24px;
+
+}
